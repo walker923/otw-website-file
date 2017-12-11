@@ -1,0 +1,185 @@
+/*****Base Styles*****/
+body{
+  font-family: 'Coustard', serif;
+  font-family: 'Homemade Apple', cursive;
+}
+#about{
+  height: 500px;
+}
+
+#work{
+  height: 850px;
+}
+
+#contact{
+  height: 600px;
+}
+
+/******Grid*********/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+.two-thirds-width{
+  width:800px;
+  float: left;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/*****Header*****/
+
+header{
+    height: 600px;
+    text-align: right;
+
+}
+header h1{
+  font-family: 'Coustard', serif;
+  font size: 32px;
+  padding-left: 80px;
+  text-align: right;
+
+}
+
+nav {
+      float: center;
+      font-family: 'Coustard', serif;
+      padding-left: 80px;
+      text-align: right;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+      text-decoration: none;
+      font-size:24px;
+      color: #828282;
+      line-height: 48px;
+  }
+#logo{
+  border: 12px solid #0B6666;
+  float: right;
+  margin: 50px 0 60px 80px;
+}
+
+/***** Adding some padding to the About section*****/
+#about .full-width{
+  padding: 50px 0;
+}
+#about h2{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 36px;
+  color: black;
+  line-height:1px;
+}
+
+#about p{
+  font-family: 'Coustard', serif;
+  font-size: 21px;
+  color: black;
+  line-height: 40px;
+  padding-right: 38px;
+}
+/***** Setting up the work section*****/
+
+#work {
+  background-color: #B29913;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 30px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+#work h2{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 36px;
+  text-align: left;
+}
+
+#work h3 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 21px;
+    padding: 0 50px 0px 50px;
+    width: third-width;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Coustard', serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2B2B2B;
+    padding: 0 50px 35px 50px;
+  }
+
+/*****Setting up the Contact section *****/
+
+#contact{
+  background-color: #EBEBEB;
+  font-family: 'Coustard', serif;
+
+}
+
+#contact .full-width{
+  padding: 110px 0
+}
+
+#contact-img{
+  border: 12px solid #0B6666;
+}
+
+#contact h2, #email-header, #socialmedia-header{
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-size: 36px;
+    line-height: 60px;
+}
+#email-header{
+    font-size:26px;
+    line-height: 50px;
+    font-weight: lighter;
+    margin: -30px 0 5px 0;
+}
+#facebook{
+  padding-left: 110px;
+}
+
+#socialmedia-header {
+    font-weight: bold;
+    font-size:36px;
+    line-height: 50px;
+    margin: 60px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
