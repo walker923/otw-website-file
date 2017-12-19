@@ -1,6 +1,10 @@
 /*****Base Styles*****/
 body{
-  font-family: 'Coustard', serif;
+  font-family: 'Lora', serif;
+  font-family: 'Homemade Apple', cursive;
+}
+
+p{
   font-family: 'Homemade Apple', cursive;
 }
 #about{
@@ -15,10 +19,14 @@ body{
   height: 600px;
 }
 
-/******Grid*********/
+#container{
+  width: 1200px;
+  margin: auto;
+}
+/******General grid*********/
 .full-width{
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 .two-thirds-width{
   width:800px;
@@ -33,7 +41,7 @@ body{
   float: left;
 }
 
-/*****Header*****/
+/*****Header section*****/
 
 header{
     height: 600px;
@@ -41,19 +49,19 @@ header{
 
 }
 header h1{
-  font-family: 'Coustard', serif;
-  font size: 32px;
+  font-family: 'Lora', serif;
+  font size: 36px;
   padding-left: 80px;
   text-align: right;
-
 }
 
 nav {
       float: center;
-      font-family: 'Coustard', serif;
-      padding-left: 80px;
+      font-family: 'Lora', serif;
+      padding-left: 100px;
       text-align: right;
 }
+
 nav ul li{
     display: inline;
 }
@@ -63,7 +71,8 @@ nav ul li a {
       font-size:24px;
       color: #828282;
       line-height: 48px;
-  }
+}
+
 #logo{
   border: 12px solid #0B6666;
   float: right;
@@ -82,7 +91,7 @@ nav ul li a {
 }
 
 #about p{
-  font-family: 'Coustard', serif;
+  font-family: 'Lora', serif;
   font-size: 21px;
   color: black;
   line-height: 40px;
@@ -117,7 +126,7 @@ nav ul li a {
 }
 
 #work p {
-    font-family: 'Coustard', serif;
+    font-family: 'Lora', serif;
     font-size: 18px;
     line-height: 32px;
     color: #2B2B2B;
@@ -128,7 +137,7 @@ nav ul li a {
 
 #contact{
   background-color: #EBEBEB;
-  font-family: 'Coustard', serif;
+  font-family: 'Lora', serif;
 
 }
 
@@ -182,4 +191,98 @@ nav ul li a {
 }
 #contact ul img {
     padding-right: 48px;
+}
+
+/****Setting up gallery pages*****/
+#gallery-header{
+  height: 300px;
+}
+
+#gallery-logo{
+  border: 12px solid #0B6666;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+
+#gallery-lead{
+  height: 220px;
+}
+
+#gallery-lead h1{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 50px;
+  line-height: 12px;
+}
+
+#gallery-lead p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 32px;
+  padding-right: 30px;
+}
+
+#gallery-footer{
+  font-family: 'Lora', serif;
+  font-size: 24px;
+}
+
+#gallery-contact{
+  font-family: 'Lora', serif;
+  font-size: 24px;
+}
+
+/*****Setting up custom creations page*****/
+
+#creations1{
+  height: 300px;
+}
+
+#creations2{
+  height: 350px;
+}
+
+#creations3{
+  height: 525px;
+}
+
+#large-image {
+  margin-left: 40px;
+  margin-top:40px;
+}
+
+#large-image p{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 40px;
+  width: 750px;
+
+}
+/******Setting up the Upcycle Page *****/
+
+#transform1, #transform2, #transform4{
+  height: 325px;
+}
+
+#transform3{
+  height: 270px;
+}
+
+#transform5{
+  height:350px;
+}
+
+.gallery-third-width p{
+  float: left;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 40px;
+  width: 400px;
+}
+
+/*****Setting up the Interior Design page*****/
+
+#design1{
+  height: 470px;
 }
